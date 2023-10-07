@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,23 +7,18 @@ public class SolarSystem : MonoBehaviour
         
     // gezegenlerin assetlerini yerlerini ayarilcaz
         // gezegeneleri bul yerine koy = okey 
+	//sizelari okey 
 
     // gezegenlerin arkasindan effect uygulicaz
+		// cizgi koydum ama duzgun cizgiler olmasi lazim bi de biger projeye koyulmasi lazim
+ 
     // transform speed yapip donmelerini saglicaz
+		// donmeleri icin animasyon da olabilir 
+
     // uzerine gelinen objeinn parlama effecti
     // double click yapilirsa o objenin camera posizyonuna gidecek ve info verecek
-    
-    // neptun uranus 1
-    // uranus starun 0.71
-    // satrun jupiter 0.37
-    //  jupiter mars 0.25 = 1k
-    // mars earth 0.09k
-    // earth venus 0,06k 100 + 70 + 60
-    // venus mercury 0,07k 100 + 70 
-    // mercucrt sun 0.1k = 100 / k = 1000  
-    
-  //real value of gravitational constant is 6.67408 × 10-11
-    //can increase to make thing go faster instead of increase timestep of Unity
+     
+
     readonly float G = 1000f;
     GameObject[] celestials;
 
