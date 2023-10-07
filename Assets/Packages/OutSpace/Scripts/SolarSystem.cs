@@ -16,7 +16,11 @@ public class SolarSystem : MonoBehaviour
 		// donmeleri icin animasyon da olabilir 
 
     // uzerine gelinen objeinn parlama effecti
+    
     // double click yapilirsa o objenin camera posizyonuna gidecek ve info verecek
+        // canvasi yap
+        // ve tikladiginda kamera posizyonuna gidecek
+        // ve bilgi verecek
      
 
     readonly float G = 1000f;
