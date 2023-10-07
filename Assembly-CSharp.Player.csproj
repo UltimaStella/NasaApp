@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{cb80f40e-3ca3-8692-285e-a76542706fe5}</ProjectGuid>
+    <ProjectGuid>{d66a02af-d500-ea10-3e8a-a0fdbcf1f3e0}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -25,8 +25,8 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\Unity.XR.Interaction.Toolkit.Samples.StarterAssets\</OutputPath>
-    <DefineConstants>UNITY_2021_3_23;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_LINUX;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;USE_INPUT_SYSTEM_POSE_CONTROL;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\Player\</OutputPath>
+    <DefineConstants>UNITY_2021_3_23;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_LINUX;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;USE_INPUT_SYSTEM_POSE_CONTROL;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -41,311 +41,303 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/DynamicMoveProvider.cs" />
-     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/PokeStation/IncrementUIText.cs" />
-     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/ActionBasedControllerManager.cs" />
-     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/GazeInputManager.cs" />
-     <Compile Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scripts/PokeStation" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/AffordanceThemes" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/UI_2D" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Teleport" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Interactables" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Audio" />
-     <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/UI_3D" />
-     <None Include="Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef" />
+     <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/UI/ZoneScale.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/FXAA/FXAA.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/Common/RenderTextureUtility.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHPlanetCreator/Scripts/FollowAtTarget.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/ObjectReset.cs" />
+     <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/UI/TurnToFace.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs" />
+     <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs" />
+     <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/ClawMachine/UfoAbductionForce.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" />
+     <Compile Include="Assets/XRI_Examples/HoverHighlight/Scripts/HighlightController.cs" />
+     <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/XRJoystick.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/Xrc3DUIInteractionStationAnalytics.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs" />
+     <Compile Include="Assets/Scripts/GameStartMenu.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/InteractionAnimator.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcSceneAnalytics.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs" />
+     <Compile Include="Assets/XRI_Examples/Setup/Scripts/DistanceCalculationToggle.cs" />
+     <Compile Include="Assets/XRI_Examples/Props/Scripts/OnCollision.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/AnimationEventActionFinished.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcPhysicsInteractionStationAnalytics.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Events/InteractionEvent.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcActiveInteractableStationAnalytics.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" />
+     <Compile Include="Assets/Scripts/AudioManager.cs" />
+     <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/KeyLockSystem/Key.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs" />
+     <Compile Include="Assets/Scripts/FadeScreen.cs" />
+     <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/XRLockGridSocketInteractor.cs" />
+     <Compile Include="Assets/Scripts/UIAudio.cs" />
+     <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/WalkthroughTriggers/WalkthroughTrigger.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs" />
+     <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcSocketInteractorsStationAnalytics.cs" />
+     <Compile Include="Assets/XRI_Examples/Setup/Scripts/LocomotionSetup.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/TransformJoint.cs" />
+     <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/XRInfiniteInteractable.cs" />
+     <Compile Include="Assets/XRI_Examples/HoverHighlight/Scripts/InteractableVisualsController.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/InputMediator.cs" />
+     <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/XRGridSocketInteractor.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/AutoSocketAttach.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/OnTilt.cs" />
+     <Compile Include="Assets/XRI_Examples/HoverHighlight/Scripts/IMaterialHighlight.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs" />
+     <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Utility/FPSCounter.cs" />
+     <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/ClawMachine/ClawMachine.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHPlanetCreator/Scripts/RotateAround.cs" />
+     <Compile Include="Assets/XRI_Examples/Props/Scripts/Unbreakable.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/LocomotionManager.cs" />
+     <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/WalkthroughTriggers/ButtonPressTrigger.cs" />
+     <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/KeyLockSystem/Lock.cs" />
+     <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/XRGripButton.cs" />
+     <Compile Include="Assets/XRI_Examples/HoverHighlight/Scripts/RendererCaptureDepth.cs" />
+     <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/PerlerMachine/PerlerMachineController.cs" />
+     <Compile Include="Assets/XRI_Examples/Props/Scripts/TargetRing.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Utils/XrcAnalyticsUtils.cs" />
+     <Compile Include="Assets/Scripts/SetTurnTypeFromPlayerPref.cs" />
+     <Compile Include="Assets/XRI_Examples/HoverHighlight/Scripts/OutlineHighlight.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/SMAA/SMAA.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHPlanetCreator/Scripts/ChangeLookAtTarget.cs" />
+     <Compile Include="Assets/XRI_Examples/Props/Scripts/OnTrigger.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" />
+     <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/KeyLockSystem/IKeychain.cs" />
+     <Compile Include="Assets/XRI_Examples/Setup/Scripts/TargetFilterToggle.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" />
+     <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/Walkthrough.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/XrcAnalytics.cs" />
+     <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/WaypointCurve.cs" />
+     <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/KeyLockSystem/Keychain.cs" />
+     <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/ClawMachine/FlippyDoor.cs" />
+     <Compile Include="Assets/XRI_Examples/HoverHighlight/Scripts/MaterialHighlight.cs" />
+     <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/XRKnob.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Scripts/SolarSystem.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcGrabInteractableStationAnalytics.cs" />
+     <Compile Include="Assets/XRI_Examples/Props/Scripts/Breakable.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/Common/MinAttribute.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/PlayQuickSound.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/AntiAliasing.cs" />
+     <Compile Include="Assets/Scripts/SceneTransitionManager.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Events/EditorEvent.cs" />
+     <Compile Include="Assets/Scripts/SetOptionFromUI.cs" />
+     <Compile Include="Assets/XRI_Examples/Physics/Scripts/Door.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/IAntiAliasing.cs" />
+     <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/XRLockSocketInteractor.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/OnSelectInteractable.cs" />
+     <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/UI/LazyFollow.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/AnimationEventActionBegin.cs" />
+     <Compile Include="Assets/XRI_Examples/ActivateInteractables/Scripts/LaunchProjectile.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/OnVelocity.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/RayAttachModifier.cs" />
+     <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/WalkthroughStep.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/DestroyObject.cs" />
+     <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/Common/ImageEffectHelper.cs" />
+     <Compile Include="Assets/XRI_Examples/Global/Scripts/OnAnimationEvent.cs" />
      <Reference Include="UnityEngine">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AIModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AccessibilityModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AndroidJNIModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AnimationModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AssetBundleModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AudioModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClothModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClusterInputModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClusterRendererModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CrashReportingModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.DSPGraphModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.DirectorModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GIModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GameCenterModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GridModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.HotReloadModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.IMGUIModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ImageConversionModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.InputModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.InputLegacyModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.JSONSerializeModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.LocalizationModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ParticleSystemModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PerformanceReportingModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PhysicsModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Physics2DModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ProfilerModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ScreenCaptureModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SharedInternalsModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpriteMaskModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpriteShapeModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.StreamingModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SubstanceModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SubsystemsModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TLSModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TerrainModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TerrainPhysicsModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextCoreFontEngineModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextCoreTextEngineModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextRenderingModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TilemapModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIElementsModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIElementsNativeModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsNativeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UNETModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UNETModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UmbraModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityAnalyticsModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityConnectModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityCurlModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityTestProtocolModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VFXModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VRModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VehiclesModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VideoModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VirtualTexturingModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.WindModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XRModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.CoreModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.DeviceSimulatorModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.DiagnosticsModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.GraphViewModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.PackageManagerUIModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.QuickSearchModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.SceneTemplateModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.TextCoreFontEngineModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.TextCoreTextEngineModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UIBuilderModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UIElementsModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UIElementsSamplesModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UIServiceModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UnityConnectModule">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.Graphs">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.WebGL.Extensions">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.Android.Extensions">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>/home/xamblot/Desktop/NasaAppThings/NasaApp/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-     </Reference>
-     <Reference Include="log4netPlastic">
-     <HintPath>/home/xamblot/Desktop/NasaAppThings/NasaApp/Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-     </Reference>
-     <Reference Include="ReportGeneratorMerged">
-     <HintPath>/home/xamblot/Desktop/NasaAppThings/NasaApp/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>/home/xamblot/Desktop/NasaAppThings/NasaApp/Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>/home/xamblot/Desktop/NasaAppThings/NasaApp/Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>/home/xamblot/Desktop/NasaAppThings/NasaApp/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>/home/xamblot/Desktop/NasaAppThings/NasaApp/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
-     </Reference>
-     <Reference Include="unityplastic">
-     <HintPath>/home/xamblot/Desktop/NasaAppThings/NasaApp/Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>/home/xamblot/Desktop/NasaAppThings/NasaApp/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Android.Types">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Android.Gradle">
-     <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -715,29 +707,85 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{08f5baba-55d2-ebda-4ddd-1da4794d1202}</Project>
-      <Name>Unity.InputSystem</Name>
+    <ProjectReference Include="Assembly-CSharp-firstpass.Player.csproj">
+      <Project>{a807a114-6536-b35d-76ae-11fcbe1f8f63}</Project>
+      <Name>Assembly-CSharp-firstpass.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{1281d53d-94df-4323-94c5-1e286da86901}</Project>
-      <Name>Unity.XR.CoreUtils</Name>
+    <ProjectReference Include="Unity.InputSystem.Player.csproj">
+      <Project>{954d4668-a0c4-df11-2523-9bb5ba4d0835}</Project>
+      <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{5a70685f-1092-9adf-55d1-09d6942f5d5b}</Project>
-      <Name>Unity.XR.Interaction.Toolkit</Name>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{6d9d6323-d9db-3924-324e-59fe11eb859e}</Project>
+      <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{502feb51-8b6f-a510-6e2c-096ae4140f59}</Project>
-      <Name>Unity.Mathematics</Name>
+    <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
+      <Project>{e7f8ed23-d48f-6f91-5396-7ebd3770d47c}</Project>
+      <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{d4899bb4-ec00-9aad-e141-fea0e2c02e8e}</Project>
-      <Name>UnityEditor.UI</Name>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Player.csproj">
+      <Project>{4ed3c3dc-06ca-7d4d-18df-652439e1928f}</Project>
+      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{de959fd1-8756-467a-be5a-f97cc95c9e10}</Project>
-      <Name>UnityEngine.UI</Name>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player.csproj">
+      <Project>{ac46cddf-3247-9242-5df1-8cdfdafb9589}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Player.csproj">
+      <Project>{7237899f-ef3a-bf73-357b-3842915eb2c1}</Project>
+      <Name>Unity.XR.Management.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Player.csproj">
+      <Project>{1298accf-b3f7-f0b5-4c7c-3d4957c60410}</Project>
+      <Name>Unity.Timeline.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
+      <Project>{f51a865b-5d2e-d4d5-de55-cb2c2b681570}</Project>
+      <Name>Unity.TextMeshPro.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Player.csproj">
+      <Project>{0d8ca030-0976-1290-4aab-aaa91eefcbe7}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
+      <Project>{b0174ef4-d722-9a5c-532b-6ce6486f03e7}</Project>
+      <Name>Unity.VisualScripting.Flow.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Player.csproj">
+      <Project>{fd488262-2da8-2b16-1707-808208cc3dfb}</Project>
+      <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
+      <Project>{5c3fb2fe-84e7-21e2-0beb-f9f3ea3f5ea3}</Project>
+      <Name>Unity.VisualScripting.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Player.csproj">
+      <Project>{d9273b34-6662-fb22-6773-26305f0cf732}</Project>
+      <Name>Unity.Mathematics.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
+      <Project>{be14ff1e-5811-fb48-faea-0d9e2bb0ea8c}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.Player.csproj">
+      <Project>{4db18b48-d953-665d-55c8-25d517e5a631}</Project>
+      <Name>Unity.XR.CoreUtils.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.Player.csproj">
+      <Project>{8995b526-dfba-79eb-80b4-febc6d76ef78}</Project>
+      <Name>Unity.XR.Hands.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Player.csproj">
+      <Project>{855f457d-c9e7-4c3a-e667-faa9f83f029d}</Project>
+      <Name>Unity.XR.OpenXR.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj">
+      <Project>{ff5e0b93-c8e9-f90c-ad17-54df2f84fe14}</Project>
+      <Name>Unity.XR.OpenXR.Features.ConformanceAutomation.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
+      <Project>{dc2942b6-bccf-1928-4f9e-470d083263d4}</Project>
+      <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
