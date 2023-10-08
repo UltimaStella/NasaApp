@@ -44,11 +44,13 @@
      <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/UI/ZoneScale.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/FXAA/FXAA.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/Common/RenderTextureUtility.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ResizePanel.cs" />
      <Compile Include="Assets/Packages/OutSpace/Scripts/CameraMovement.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHPlanetCreator/Scripts/FollowAtTarget.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/ObjectReset.cs" />
      <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/UI/TurnToFace.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/DragPanel.cs" />
      <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/XRSlider.cs" />
      <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/ClawMachine/UfoAbductionForce.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" />
@@ -59,22 +61,27 @@
      <Compile Include="Assets/Scripts/GameStartMenu.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/InteractionAnimator.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcSceneAnalytics.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/PanelManager.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs" />
      <Compile Include="Assets/XRI_Examples/Setup/Scripts/DistanceCalculationToggle.cs" />
      <Compile Include="Assets/XRI_Examples/Props/Scripts/OnCollision.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/AnimationEventActionFinished.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ActiveStateToggler.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcPhysicsInteractionStationAnalytics.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Events/InteractionEvent.cs" />
      <Compile Include="Assets/Packages/OutSpace/Scripts/PlanetData.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcActiveInteractableStationAnalytics.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/DragMe.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" />
      <Compile Include="Assets/Scripts/AudioManager.cs" />
      <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/KeyLockSystem/Key.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ShowSliderValue.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs" />
      <Compile Include="Assets/Scripts/FadeScreen.cs" />
      <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/XRLockGridSocketInteractor.cs" />
      <Compile Include="Assets/Scripts/UIAudio.cs" />
      <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/WalkthroughTriggers/WalkthroughTrigger.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/DropMe.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs" />
      <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/XRLever.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcSocketInteractorsStationAnalytics.cs" />
@@ -88,6 +95,7 @@
      <Compile Include="Assets/XRI_Examples/Global/Scripts/AutoSocketAttach.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/OnTilt.cs" />
      <Compile Include="Assets/XRI_Examples/HoverHighlight/Scripts/IMaterialHighlight.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/TiltWindow.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs" />
      <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Utility/FPSCounter.cs" />
@@ -106,12 +114,14 @@
      <Compile Include="Assets/Scripts/SetTurnTypeFromPlayerPref.cs" />
      <Compile Include="Assets/XRI_Examples/HoverHighlight/Scripts/OutlineHighlight.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/SMAA/SMAA.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ApplicationManager.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHPlanetCreator/Scripts/ChangeLookAtTarget.cs" />
      <Compile Include="Assets/XRI_Examples/Props/Scripts/OnTrigger.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" />
      <Compile Include="Assets/XRI_Examples/SocketInteractors/Scripts/KeyLockSystem/IKeychain.cs" />
      <Compile Include="Assets/XRI_Examples/Setup/Scripts/TargetFilterToggle.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ScrollDetailTexture.cs" />
      <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/Walkthrough.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/XrcAnalytics.cs" />
      <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/WaypointCurve.cs" />
@@ -136,23 +146,13 @@
      <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/UI/LazyFollow.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/AnimationEventActionBegin.cs" />
      <Compile Include="Assets/XRI_Examples/ActivateInteractables/Scripts/LaunchProjectile.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ChangeColor.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/OnVelocity.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/RayAttachModifier.cs" />
      <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/WalkthroughStep.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/DestroyObject.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/Common/ImageEffectHelper.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/OnAnimationEvent.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/DropMe.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ResizePanel.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ShowSliderValue.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ChangeColor.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ActiveStateToggler.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ScrollDetailTexture.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/PanelManager.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/DragPanel.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/DragMe.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/TiltWindow.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ApplicationManager.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/home/xamblot/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
      </Reference>
@@ -726,6 +726,38 @@
       <Project>{a807a114-6536-b35d-76ae-11fcbe1f8f63}</Project>
       <Name>Assembly-CSharp-firstpass.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.Player.csproj">
+      <Project>{954d4668-a0c4-df11-2523-9bb5ba4d0835}</Project>
+      <Name>Unity.InputSystem.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
+      <Project>{4dcf4ba1-c040-a3a9-7001-e3cd16bd573d}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{6d9d6323-d9db-3924-324e-59fe11eb859e}</Project>
+      <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
+      <Project>{e7f8ed23-d48f-6f91-5396-7ebd3770d47c}</Project>
+      <Name>UnityEngine.SpatialTracking.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Player.csproj">
+      <Project>{4ed3c3dc-06ca-7d4d-18df-652439e1928f}</Project>
+      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player.csproj">
+      <Project>{ac46cddf-3247-9242-5df1-8cdfdafb9589}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Player.csproj">
+      <Project>{7237899f-ef3a-bf73-357b-3842915eb2c1}</Project>
+      <Name>Unity.XR.Management.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime.Player.csproj">
+      <Project>{98ab78f6-eb09-8549-2b2f-2394a3c2ec5e}</Project>
+      <Name>Unity.RenderPipelines.HighDefinition.Config.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
       <Project>{1298accf-b3f7-f0b5-4c7c-3d4957c60410}</Project>
       <Name>Unity.Timeline.Player</Name>
@@ -738,29 +770,17 @@
       <Project>{0d8ca030-0976-1290-4aab-aaa91eefcbe7}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
+      <Project>{9ee86fee-c496-4724-dfc1-ba63d1a447da}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{b0174ef4-d722-9a5c-532b-6ce6486f03e7}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{954d4668-a0c4-df11-2523-9bb5ba4d0835}</Project>
-      <Name>Unity.InputSystem.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Player.csproj">
       <Project>{fd488262-2da8-2b16-1707-808208cc3dfb}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{e7f8ed23-d48f-6f91-5396-7ebd3770d47c}</Project>
-      <Name>UnityEngine.SpatialTracking.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{6d9d6323-d9db-3924-324e-59fe11eb859e}</Project>
-      <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Player.csproj">
-      <Project>{4ed3c3dc-06ca-7d4d-18df-652439e1928f}</Project>
-      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{5c3fb2fe-84e7-21e2-0beb-f9f3ea3f5ea3}</Project>
@@ -774,17 +794,9 @@
       <Project>{be14ff1e-5811-fb48-faea-0d9e2bb0ea8c}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player.csproj">
-      <Project>{ac46cddf-3247-9242-5df1-8cdfdafb9589}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Player.csproj">
       <Project>{4db18b48-d953-665d-55c8-25d517e5a631}</Project>
       <Name>Unity.XR.CoreUtils.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{7237899f-ef3a-bf73-357b-3842915eb2c1}</Project>
-      <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.Player.csproj">
       <Project>{8995b526-dfba-79eb-80b4-febc6d76ef78}</Project>

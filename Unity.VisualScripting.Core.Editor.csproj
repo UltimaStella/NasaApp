@@ -81,8 +81,8 @@
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/Changelogs/LegacyLudiqGraphs/Changelog_1_2_4.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/SerializedProperties/SerializedPropertyProviderProvider.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Descriptors/IDescriptor.cs" />
-     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Analytics/NodeUsageAnalytics.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/Migrations/Migration_1_4_5_to_1_4_6.cs" />
+     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Analytics/NodeUsageAnalytics.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/ReorderableList/Internal/ReorderableListResources.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Windows/Wizard.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Descriptors/Description.cs" />
@@ -160,8 +160,8 @@
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Utilities/EditorTypeUtility.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Serialization/TypeSerializer.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Interface/Colors/ColorUtility.cs" />
-     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Meta/IndexMetadata.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugin/Changelogs/Changelog_1_4_2.cs" />
+     <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Meta/IndexMetadata.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Inspection/Primitives/CharInspector.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Interface/LudiqGUI.cs" />
      <Compile Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Plugins/PluginManifest.cs" />
@@ -1270,13 +1270,13 @@
       <Project>{de959fd1-8756-467a-be5a-f97cc95c9e10}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{794f9f1e-8529-80d1-b08a-7e8eaa76cad4}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{723d28e2-4a43-fa42-2ab5-f11847458abe}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{794f9f1e-8529-80d1-b08a-7e8eaa76cad4}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
