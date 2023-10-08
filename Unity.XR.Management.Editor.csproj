@@ -58,22 +58,14 @@
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRPackageInitialization.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRGeneralSettingsPerBuildTarget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRLoaderInfoManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRCustomLoaderUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRPackageInitializationSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRSettingsManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\Metadata\XRPackageMetadataStore.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\EditorUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRSupportedBuildTargetAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRConfigurationProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRManagerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XREditorWorkQueue.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\Legacy\XRLegacyUninstaller.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRConstants.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\TypeLoaderExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRGeneralBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRGeneralSettingsUpgrade.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\PackageNotificationUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRLoaderOrderUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\BuildHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRLoaderInfo.cs" />
@@ -81,8 +73,16 @@
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\Metadata\XRPackageMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRCustomLoaderUIManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\Metadata\KnownPackages.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRBuildProcessorHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\Legacy\XRLegacyStandaloneSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRLoaderInfoManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRSettingsManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\EditorUtilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRConfigurationProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRManagerEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\TypeLoaderExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRGeneralBuildProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\PackageNotificationUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\XRBuildProcessorHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.management@4.3.3\Editor\Unity.XR.Management.Editor.asmdef" />
@@ -352,6 +352,9 @@
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.3\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -364,26 +367,23 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -781,13 +781,13 @@
       <Project>{DA7F503E-D660-0CFD-ECF7-905068CD8361}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{1E9F4F79-2985-D180-B08A-7E8EAA76CAD4}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{E2283D72-434A-42FA-2AB5-F11847458ABE}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{1E9F4F79-2985-D180-B08A-7E8EAA76CAD4}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
