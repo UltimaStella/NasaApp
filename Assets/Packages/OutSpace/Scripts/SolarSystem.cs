@@ -17,10 +17,11 @@ public class SolarSystem : MonoBehaviour
 
     // uzerine gelinen objeinn parlama effecti
     
-    // double click yapilirsa o objenin camera posizyonuna gidecek ve info verecek
-        // canvasi yap
-        // ve tikladiginda kamera posizyonuna gidecek
-        // ve bilgi verecek
+    // double click yapilirsa o objenin camera posizyonuna gidecek ve info verecek 
+    // ui tasarla ss al tum gezegenleri al
+    // event trigger a text ler verilmeli
+    // hover efecti olacak, bir kez tikllama zoom yapacak
+    
      
 
     readonly float G = 1000f;
