@@ -44,6 +44,7 @@
      <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/UI/ZoneScale.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/FXAA/FXAA.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/Common/RenderTextureUtility.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Scripts/CameraMovement.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHPlanetCreator/Scripts/FollowAtTarget.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/ObjectReset.cs" />
      <Compile Include="Assets/XRI_Examples/VRWalkthrough/Scripts/UI/TurnToFace.cs" />
@@ -64,6 +65,7 @@
      <Compile Include="Assets/XRI_Examples/Global/Scripts/AnimationEventActionFinished.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcPhysicsInteractionStationAnalytics.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Events/InteractionEvent.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Scripts/PlanetData.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours/XrcActiveInteractableStationAnalytics.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" />
      <Compile Include="Assets/Scripts/AudioManager.cs" />
@@ -90,6 +92,7 @@
      <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/XRPushButton.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Utility/FPSCounter.cs" />
      <Compile Include="Assets/XRI_Examples/UI_3D/Scripts/ClawMachine/ClawMachine.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Scripts/RayCasterCreator.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHPlanetCreator/Scripts/RotateAround.cs" />
      <Compile Include="Assets/XRI_Examples/Props/Scripts/Unbreakable.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/LocomotionManager.cs" />
@@ -139,9 +142,17 @@
      <Compile Include="Assets/XRI_Examples/Global/Scripts/DestroyObject.cs" />
      <Compile Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/Common/ImageEffectHelper.cs" />
      <Compile Include="Assets/XRI_Examples/Global/Scripts/OnAnimationEvent.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Scripts/RayCasterCreator.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Scripts/PlanetData.cs" />
-     <Compile Include="Assets/Packages/OutSpace/Scripts/CameraMovement.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/DropMe.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ResizePanel.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ShowSliderValue.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ChangeColor.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ActiveStateToggler.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ScrollDetailTexture.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/PanelManager.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/DragPanel.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/DragMe.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/TiltWindow.cs" />
+     <Compile Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts/ApplicationManager.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/XRI_Examples/Scenes/XRI_Examples_Main" />
      <Folder Include="Assets/XRI_Examples/HoverHighlight/Audio" />
@@ -180,6 +191,7 @@
      <None Include="Library/PackageCache/com.unity.modules.ai@1.0.0/package.json" />
      <Folder Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/DemoScene_Profiles" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/differences.es.txt" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Fonts/Jupiter" />
      <Folder Include="Assets/XRI_Examples/Global/Materials" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/commontypes.zh-Hans.txt" />
      <Folder Include="Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.10/Tests/Runtime" />
@@ -219,6 +231,7 @@
      <Folder Include="Assets/XRI_Examples/SocketInteractors" />
      <Folder Include="Assets/Audio/Kenney Audio/kenney_ui-audio" />
      <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/package.json" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Animation/Panel" />
      <Folder Include="Library/PackageCache/com.unity.xr.openxr@1.7.0/RuntimeLoaders/windows" />
      <Folder Include="Assets/XRI_Examples/Physics" />
      <Folder Include="Assets/XRI_Examples/Environment/Models" />
@@ -243,6 +256,7 @@
      <Folder Include="Assets/XRI_Examples/Environment" />
      <None Include="Library/PackageCache/com.unity.timeline@1.6.4/package.json" />
      <Folder Include="Assets/Packages/OutSpace/AHPlanetCreator/Scenes" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Scenes" />
      <Folder Include="Assets/XRI_Examples/Props/Models" />
      <Folder Include="Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom" />
      <Folder Include="Assets/XRI_Examples/Props/Materials" />
@@ -258,21 +272,26 @@
      <Folder Include="Library/PackageCache/com.unity.ext.nunit@1.0.6/net35" />
      <Folder Include="Assets/Audio/Kenney Audio/kenney_interface-sounds/Audio" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/basecommands.zh-Hant.txt" />
+     <None Include="Assets/Packages/OutSpace/Unity UI Samples/Textures and Sprites/SF UI/Background/LICENSE.txt" />
      <Folder Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Textures/Earth" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/cm-help.es.txt" />
      <None Include="Library/PackageCache/com.unity.modules.terrainphysics@1.0.0/package.json" />
      <Folder Include="Assets/XRI_Examples/Environment/Prefabs" />
      <None Include="Library/PackageCache/com.unity.mathematics@1.2.6/package.json" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Textures and Sprites" />
      <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM" />
      <None Include="Assets/Packages/OutSpace/AHPlanetCreator/Resources/BillingMode.json" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Animation" />
      <Folder Include="Library/PackageCache/com.unity.performance.profile-analyzer@1.2.2" />
      <Folder Include="Assets/XRI_Examples/Global/Scripts/Analytics/Behaviours" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Textures and Sprites/Rounded UI" />
      <None Include="Library/PackageCache/com.unity.sysroot@2.0.7/package.json" />
      <Folder Include="Assets/XRI_Examples/Props/Prefabs" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/differences.zh-Hant.txt" />
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader" />
      <Folder Include="Library/PackageCache/com.unity.xr.openxr@1.7.0/RuntimeLoaders/universalwindows/arm64" />
      <Folder Include="Assets/XRI_Examples/UI_3D" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Animation/MainMenu" />
      <Folder Include="Assets/Fonts/all_always" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/plastic-gui.ko.txt" />
      <Folder Include="Assets/Packages/OutSpace/AHPlanetCreator/Resources" />
@@ -285,6 +304,7 @@
      <Folder Include="Assets/Packages/OutSpace/AHPlanetCreator/Materials" />
      <None Include="Assets/XRI_Examples/HoverHighlight/Shaders/TransparentPulse.shader" />
      <None Include="Library/PackageCache/com.unity.timeline@1.6.4/ValidationExceptions.json" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples" />
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/SMAA/Resources/SMAA.cginc" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/package.json" />
      <None Include="Assets/Audio/Kenney Audio/kenney_sci-fi-sounds/License.txt" />
@@ -308,6 +328,7 @@
      <Folder Include="Library/PackageCache/com.unity.xr.core-utils@2.2.0" />
      <Folder Include="Assets/XRI_Examples/ActivateInteractables/Models" />
      <Folder Include="Assets/XRI_Examples/UI_2D/Prefabs/Dropdown" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Models" />
      <Folder Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Anim" />
      <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/PackageConversionData.json" />
      <None Include="Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0/package.json" />
@@ -319,6 +340,7 @@
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/differences.ja.txt" />
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/configurehelper.ja.txt" />
+     <None Include="Assets/Packages/OutSpace/Unity UI Samples/Materials/UI-Default-No-Alpha.shader" />
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/SMAA/Resources/SMAA.shader" />
      <Folder Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Utility" />
      <Folder Include="Assets/XRI_Examples/ActivateInteractables/Animation" />
@@ -332,6 +354,7 @@
      <Folder Include="Library/PackageCache/com.unity.modules.terrainphysics@1.0.0" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/plastic-gui.zh-Hans.txt" />
      <None Include="Library/PackageCache/com.unity.modules.imageconversion@1.0.0/package.json" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Materials" />
      <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0" />
      <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/ValidationExceptions.json" />
      <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0" />
@@ -349,6 +372,7 @@
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc" />
      <Folder Include="Library/PackageCache/com.unity.modules.subsystems@1.0.0" />
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Textures and Sprites/Lit UI" />
      <Folder Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Meshes" />
      <None Include="Library/PackageCache/com.unity.ide.rider@3.0.18/package.json" />
      <Folder Include="Library/PackageCache/com.unity.xr.openxr@1.7.0/RuntimeLoaders/universalwindows" />
@@ -447,6 +471,7 @@
      <None Include="Assets/Fonts/ananda_2/Terms of Use End User Lisence Agreement.txt" />
      <Folder Include="Library/PackageCache/com.unity.ugui@1.0.0/Tests" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/xdiff.zh-Hant.txt" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Models/Materials" />
      <None Include="Library/PackageCache/com.unity.modules.umbra@1.0.0/package.json" />
      <Folder Include="Assets/Fonts/cocogoose" />
      <None Include="Assets/Scripts/GradientSkybox.shader" />
@@ -463,6 +488,7 @@
      <Folder Include="Assets/XRI_Examples/Global/Scripts/Analytics/Events" />
      <Folder Include="Assets/Packages/OutSpace/AHPlanetCreator/Sounds" />
      <Folder Include="Assets/XRI_Examples/Global/Models" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Animation/Settings" />
      <Folder Include="Assets/XRI_Examples/ActivateInteractables/Audio" />
      <Folder Include="Assets/XRI_Examples/Environment/Shaders" />
      <Folder Include="Assets/XRI_Examples/Environment/Materials" />
@@ -473,6 +499,7 @@
      <Folder Include="Assets/Fonts/super_mario_256" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/FileSystemWatcherLicense.txt" />
      <Folder Include="Library/PackageCache/com.unity.modules.androidjni@1.0.0" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Textures and Sprites/SF UI/Background" />
      <Folder Include="Assets/XRI_Examples/SocketInteractors/Models" />
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader" />
      <Folder Include="Library/PackageCache/com.unity.performance.profile-analyzer@1.2.2/Tests" />
@@ -494,6 +521,7 @@
      <Folder Include="Assets/XRI_Examples/SocketInteractors/Scripts/KeyLockSystem" />
      <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.3" />
      <Folder Include="Assets/XRI_Examples/UI_3D/Scripts/ClawMachine" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Prefabs" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/binmergetool.zh-Hans.txt" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/i3.es.txt" />
      <Folder Include="Library/PackageCache/com.unity.toolchain.linux-x86_64@2.0.6/Tests" />
@@ -505,6 +533,7 @@
      <Folder Include="Assets/XRI_Examples/UI_2D/Fonts/Inter" />
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader" />
      <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2" />
+     <None Include="Assets/Packages/OutSpace/Unity UI Samples/Fonts/Jupiter/LICENSE.txt" />
      <Folder Include="Assets/XRI_Examples/UI_3D/Scripts" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/plastic-gui.es.txt" />
      <Folder Include="Assets/XRI_Examples/UI_2D/Sprites/Icons" />
@@ -538,6 +567,7 @@
      <Folder Include="Assets/XRI_Examples/ActivateInteractables/Prefabs" />
      <Folder Include="Assets/Audio" />
      <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Shaders/TMP_SDF_SSD.cginc" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Textures and Sprites/SF UI" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/ValidationConfig.json" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/images.ja.txt" />
      <Folder Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Textures/Skybox" />
@@ -601,6 +631,7 @@
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/configurehelper.ko.txt" />
      <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/PackageConversionData_Assets.json" />
      <Folder Include="Assets/XRI_Examples/Setup" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Models/Textures" />
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/FXAA/Resources/FXAA.shader" />
      <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Editor" />
      <Folder Include="Library/PackageCache/com.unity.xr.openxr@1.7.0/RuntimeLoaders/universalwindows/arm32" />
@@ -614,6 +645,7 @@
      <Folder Include="Assets/Packages/OutSpace/AHProxy" />
      <Folder Include="Library/PackageCache/com.unity.modules.uielementsnative@1.0.0" />
      <Folder Include="Assets/XRI_Examples/GrabInteractables/Models" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Fonts" />
      <Folder Include="Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/guihelp.es.txt" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/differences.en.txt" />
@@ -622,6 +654,7 @@
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader" />
      <None Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader" />
      <Folder Include="Assets/XRI_Examples/VRWalkthrough/Textures" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Scripts" />
      <Folder Include="Assets/XRI_Examples/UI_2D/Prefabs/InputFields" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/clientcommon.ko.txt" />
      <Folder Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor" />
@@ -629,6 +662,7 @@
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/i3.ja.txt" />
      <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Localization/cm.zh-Hans.txt" />
+     <Folder Include="Assets/Packages/OutSpace/Unity UI Samples/Textures and Sprites/Decoration" />
      <Folder Include="Library/PackageCache/com.unity.xr.management@4.4.0/Tests/TestPackage" />
      <Folder Include="Assets/XRI_Examples/UI_3D/Materials/ClawMachine" />
      <Folder Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Standard Assets/Effects/AntiAliasing/FXAA/Resources" />

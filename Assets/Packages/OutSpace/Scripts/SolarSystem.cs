@@ -22,8 +22,7 @@ public class SolarSystem : MonoBehaviour
     // event trigger a text ler verilmeli
     // hover efecti olacak, bir kez tikllama zoom yapacak
     
-     
-
+    
     readonly float G = 1000f;
     GameObject[] celestials;
 
