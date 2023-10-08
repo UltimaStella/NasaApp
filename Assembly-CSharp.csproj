@@ -600,6 +600,7 @@
      <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0" />
      <Folder Include="Assets/XRI_Examples/UI_2D/Prefabs/MainMenu" />
      <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib" />
+     <Folder Include="Assets/Packages/OutSpace/Prefabs" />
      <None Include="Library/PackageCache/com.unity.modules.director@1.0.0/package.json" />
      <Folder Include="Assets/Packages/OutSpace/AHProxy/PlanetShader/DemoScene/Materials/Planets" />
      <None Include="Library/PackageCache/com.unity.ide.vscode@1.2.5/ValidationExceptions.json" />
