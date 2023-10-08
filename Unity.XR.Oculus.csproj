@@ -57,20 +57,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\ColorScale.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusRestarter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusBoundary.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\RegisterUpdateCallback.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\InputSystem\DeviceLayouts.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\InputFocus.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\Device.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusPerformance.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusDevelopment.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\FFR.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusPlugin.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusSession.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusUsages.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\ColorScale.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusRestarter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusPerformance.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\InputSystem\DeviceLayouts.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\InputFocus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusDevelopment.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusBoundary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\RegisterUpdateCallback.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\x86\AudioPluginOculusSpatializer.dll" />
@@ -343,6 +343,9 @@
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.3\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -355,26 +358,23 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>D:\UnityEditors\2021.3.23f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
